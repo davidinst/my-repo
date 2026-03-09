@@ -3,7 +3,7 @@ entries:
   clarus-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-03-09T11:15:09.606457243Z"
+    created: "2026-03-09T11:25:03.798141901Z"
     description: A Helm chart for Kubernetes
     digest: 162f88464859840b4427b6a4e344cf281a3e0ce6712f87ca2c67b2e160ab9d18
     name: clarus-chart
@@ -11,10 +11,21 @@ entries:
     urls:
     - clarus-chart-0.1.1.tgz
     version: 0.1.1
+  phonebook-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-03-09T11:25:03.798469065Z"
+    description: A Helm chart for Kubernetes
+    digest: ad35abe229e01618956cef75d19b22ac25dd40ad8ba5f43f9548ea0aee4c2a8e
+    name: phonebook-chart
+    type: application
+    urls:
+    - phonebook-chart-0.1.0.tgz
+    version: 0.1.0
   second-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-03-09T11:15:09.607335323Z"
+    created: "2026-03-09T11:25:03.800142463Z"
     description: A Helm chart for Kubernetes
     digest: 617f2774b60d4ce911d3349f97b82bf6669a8e4af922b3c36d55d89f738cdcc3
     name: second-chart
@@ -22,4 +33,4 @@ entries:
     urls:
     - second-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-09T11:15:09.606088509Z"
+generated: "2026-03-09T11:25:03.797453793Z"
